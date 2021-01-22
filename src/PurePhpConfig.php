@@ -18,12 +18,12 @@ class PurePhpConfig
     /**
      * @var array Config storage
      */
-    protected array $store = [];
+    protected $store = [];
 
     /**
      * @var array Config directory location
      */
-    protected string $directory;
+    protected $directory;
 
     /**
      * Create a new PurePhpConfig instance
